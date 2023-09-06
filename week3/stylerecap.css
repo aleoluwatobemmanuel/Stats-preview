@@ -1,0 +1,39 @@
+body{
+    background: yellowgreen;
+}
+
+/* p{
+    color: azure;
+    font-size: 30px;
+    font-weight: bold; 
+    } */
+
+    /* .hello { 
+        color: aqua; 
+    } 
+        */
+
+        .hello{
+            color: black;
+        }
+
+.today {
+    color: green;
+    text-align: center;
+}
+
+.yo{
+    color: red;
+    font-size: 20px;
+}
+
+.test{
+    color: blue;
+    font-size: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+

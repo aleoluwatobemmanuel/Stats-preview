@@ -1,0 +1,93 @@
+body{} 
+
+.names{background: red;}
+
+#Today{background: yellow;}
+
+.lorem-text{
+/* background: red; */
+/* border: 2px solid red;
+margin: 50px;
+padding: 60px; */
+/* margin: 50px; */
+/* margin-left: 40px;
+margin-right: 90px;
+margin-top: 20px;
+margin-bottom: 100px;  */
+
+/*How to rewrite nargin for 4 values on a single line: Top, right, bottom,left */
+
+/* margin: 20px 90px 100px 40px ;
+padding: 50px 80px 20px 30px; */
+
+/* How to apply in two values */
+
+/* Top- bottom, left right */
+/* margin: 30px 60px; */
+
+/* margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 60px;
+margin-right: 80px; */
+
+
+
+/* padding: 30px;
+padding-top: 50px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 80px;  */
+
+/* samething for padding aswell: Top, right, bottom, left*/
+
+
+
+
+
+/* color: white */
+}
+    
+
+.ipsum{
+    /* background: yellowgreen;  */
+    /* color: antiquewhite; */
+    /* max-width: 400px; */
+} 
+
+.register{
+    text-align: center;
+    color: aqua;
+}
+
+.form-submit {
+    background: red;
+    color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+    /* background: linear-gradien red rgba(255, 255, 255, 0); */
+}
+
+.form-submit input{
+width: 100%;
+/* margin-top: 15px;
+margin-bottom: 15px; */
+margin: 15px 0;
+padding: 12px;
+max-width: 370;
+border-radius: 8px;
+}
+
+.submit-btn {
+margin-top: 10px;
+text-align: center;
+
+}
+
+.b
+
+
+
+

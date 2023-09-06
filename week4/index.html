@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+
+    <style>
+        /* read on css display */
+.grid-container {
+    font-family: 'Montserrat', sans-serif;
+
+    display: grid;
+
+    /* fr means fraction */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* you can also represent with % but its better with fr */
+
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.hello, .lorem {
+    background: rebeccapurple;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+.lorem{
+    background: rebeccapurple;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.lorem-cls{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    gap: 5px; 
+    margin-top: 20px;
+    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    background
+
+
+}
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="">
+        <!-- grid illustrations -->
+
+
+        <div class="grid-container">
+
+            <div class="hello">Hello</div>
+            <div class="hello">Hello</div>
+            <div class="hello">Hello</div>
+            <div class="hello">Hello</div>
+            <div class="hello">Hello</div>
+            <div class="hello">Hello</div>
+
+     </div>
+
+     <div class="lorem-cls">
+
+        <div class="lorem">lorem</div>
+        <div class="lorem">lorem</div>
+        <div class="lorem">lorem</div>
+
+     </div>
+
+     <hr>
+
+       <!-- flex illustrations -->
+       <div class="flex-container">
+          <div class="lorem">Hello</div>
+          <div class="lorem">Hello</div>
+          <div class="lorem">Hello</div>
+          </div>
+
+        </div>
+
+</body>
+</html>

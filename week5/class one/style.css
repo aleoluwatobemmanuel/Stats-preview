@@ -1,0 +1,121 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+  
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.wrapper{
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.content{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+}
+
+.box-one{
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+}
+
+.box-two{
+  background-color:hsl(184, 100%, 22%) ;
+}
+
+.box-three{
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+}
+
+.box{
+  padding: 2rem;
+}
+
+.box h1{
+  font-family: 'Big Shoulders Display', cursive;
+  color:hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
+.box p{
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+  }
+
+  .box a{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.7rem 1.5rem;
+    border-radius: 1.5rem;
+    display: inline-block;
+    margin-top: 4rem;
+  }
+
+  .box-one a {
+  color: hsl(31, 77%, 52%);
+  }
+
+  .box-two a {
+    color: hsl(184, 100%, 22%);
+  }
+
+  .box-three a {
+    color:hsl(179, 100%, 13%) ;
+  }
+
+  .box a:hover{
+    background:transparent;
+    color:hsl(0, 0%, 95%) ;
+    border: 1px solid hsl(0, 0%, 95%);
+    }
+
+     @media screen and (max-width: 600px) {
+      .content{
+        grid-template-columns: 1fr;
+        margin: 2rem 1.5rem;
+      }
+      
+
+      .box-one{
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 0.7rem;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0.7rem;
+      }
+      
+      /* .box-two{ */
+        /* background-color:hsl(184, 100%, 22%) ; */
+      /* }  */
+      
+      .box-three{
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0.7rem;
+        border-bottom-left-radius: 0.7rem;
+      }
+
+     }
+      
+    

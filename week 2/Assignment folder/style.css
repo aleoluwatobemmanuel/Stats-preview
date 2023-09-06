@@ -1,0 +1,43 @@
+.survey-assign {
+    background: yellowgreen;
+    color: brown;
+    max-width: 900px;
+    /* margin auto is used to shift the project to the centre */
+    margin: auto;
+    /* padding adds space to the elements within */
+    padding: 30px;  
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.surveyform {
+
+    text-align: center;
+}
+
+.form-submit input {
+   width: 100%; 
+   margin-top: 15px; 
+   margin-bottom: 15px; 
+   padding: 12px;
+   max-width: 350px;
+   border-radius: 8px;
+}
+
+.submit-btn{
+    margin-top: 10px;
+    text-align: center;
+    
+
+    }
+
+    .btn-btn{
+
+        padding: 10px;
+        cursor: pointer;
+    }
+
+
