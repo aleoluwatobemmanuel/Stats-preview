@@ -1,0 +1,73 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: hsl(233, 47%, 7%);   
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-product{
+  display: flex;
+  /* color: hsl(277, 64%, 61%); */
+  
+}
+
+.left-text{
+  background: hsl(244, 38%, 16%);
+  width: 20rem;
+  padding: 2rem 2rem;
+  }
+
+.right-image{
+  background-image: url(images/image-header-desktop.jpg);
+  width: 20rem;
+  padding: 3rem;
+  background-size: cover;
+  background-position: center;
+  /* color:  hsl(277, 64%, 61%); */
+  
+}
+
+.hook{
+color: hsl(0, 0%, 100%);
+}
+
+.descrip{
+  margin-top: 6%;
+  color: hsla(0, 0%, 100%, 0.75);
+  }
+
+  .stats{
+display: flex; 
+gap: 0.5rem;
+margin-top: 1.2rem;
+color: hsl(0, 0%, 100%)  
+}  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+}
