@@ -1,0 +1,143 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:hsl(0, 0%, 100%); 
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center;     */
+  font-size: 15px;
+  font-family: 'League Spartan', sans-serif; 
+  
+}
+
+.general-div{
+  margin-left: 3rem;
+}
+
+.prod-desc{
+  color: hsl(300, 43%, 22%); 
+  margin-bottom: 3rem;
+  margin-left: 4rem; 
+  margin-top: 4rem; 
+  }
+
+  .further-desc{
+    margin-top:1rem;
+    font-size: 15px;
+    
+  }
+
+  .Rated{
+  margin-top: 5rem;
+  margin-right: 3rem;
+  display: grid;  
+  width: 20rem;
+  float: right; 
+  position: absolute; top: 0px; right: 0px;  
+  font-size: 15px;
+  color: hsl(300, 43%, 22%);
+  }
+
+  .first-rating{
+background: url(social-proof-section-master/images/icon-star.svg);
+  }
+
+  .second-rating{
+    position: relative; 
+    left: 10px; 
+    margin-left: 20px;
+    margin-top: 25px;
+    background: url(social-proof-section-master/images/icon-star.svg); 
+  }
+
+  .third-rating{
+  margin-left: 40px;
+  margin-top: 25px;
+  background: url(social-proof-section-master/images/icon-star.svg);
+  }
+
+  .users{
+    
+  }
+
+  .reviews{
+  display: grid;
+grid-template-columns:repeat(3, 1fr); 
+gap: 1.5rem;  
+margin-left: 4rem; 
+margin-right: 4rem;
+margin-top: 3rem; 
+color: hsl(0, 0%, 100%);
+font-size: 15px;
+} 
+
+  .colton{
+    background-color:hsl(300, 43%, 22%);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    }
+
+    .colton-image{
+      /* font-size: 1px;
+      padding-right: 2rem;
+      padding-bottom:2rem;  */
+      /* position: relative; 
+      right: 10px;
+      top: 10px; */
+      
+      } 
+
+    
+
+    .irene{
+      background: hsl(300, 43%, 22%);
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      position: relative;
+      top: 12px;
+      
+      } 
+
+    .Anne{
+    background: hsl(300, 43%, 22%);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    top: 25px;
+    }
+
+    .pink1{
+      color:hsl(333, 80%, 67%);
+      display: flex; 
+      right: 2rem;
+      
+    }
+
+    .pink2{
+    color: hsl(333, 80%, 67%);
+    }
+
+    .pink3{
+      color: hsl(333, 80%, 67%);
+    }
+
+    @media screen and (max-width: 1440px) {
+
+    }
+      
+    
+  
+
